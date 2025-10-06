@@ -1,0 +1,31 @@
+name: childlearn
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS style icons (optional)
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linting rules
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 👇 assets section — make sure indentation is correct (2 spaces)
+  assets:
+#    - assets/morat.png
+    # Or you can include the whole folder like this:
+     - assets/
