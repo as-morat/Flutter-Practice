@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
           textAlign: TextAlign.center,
         ),
         centerTitle: true,
-        backgroundColor: Colors.tealAccent,
+        backgroundColor: Colors.greenAccent,
       ),
       body: Center(
         child: ElevatedButton(
@@ -45,12 +45,12 @@ class HomeScreen extends StatelessWidget {
           },
           style: ElevatedButton.styleFrom(
               padding: EdgeInsets.symmetric(horizontal: 28, vertical: 15),
-              backgroundColor: Colors.tealAccent,
+              backgroundColor: Colors.greenAccent,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18)
               ),
               elevation: 6,
-              shadowColor: Colors.tealAccent
+              shadowColor: Colors.greenAccent
           ),
           child: Text(
             "Next Screen",
