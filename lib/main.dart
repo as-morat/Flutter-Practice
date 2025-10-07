@@ -1,4 +1,5 @@
-import 'package:childlearn/state_less_widget/basic_ui.dart';
+import 'package:childlearn/state_full_widget/counter_screen.dart';
+// import 'package:childlearn/state_less_widget/basic_ui.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My App',
-      home: const MyWidget(),
+      home: const CounterScreen(),
       theme: ThemeData(primarySwatch: Colors.lightBlue),
     );
   }
