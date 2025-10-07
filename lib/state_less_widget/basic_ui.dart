@@ -66,7 +66,7 @@ class MyWidget extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         ElevatedButton.icon(
-                          onPressed: () {},
+                          onPressed: (){},
                           icon: const Icon(Icons.thumb_up, color: Colors.white),
                           label: const Text(
                             'Like',
